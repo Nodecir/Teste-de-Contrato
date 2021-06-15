@@ -1,0 +1,17 @@
+{
+    "description": "schema postBank",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number",
+            "minimum": 0
+        },
+        "code": {
+            "type": "string"
+        },
+        "name": {
+            "type":"string"
+        }
+        
+    }
+}
